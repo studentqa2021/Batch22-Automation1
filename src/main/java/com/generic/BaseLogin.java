@@ -15,6 +15,8 @@ public class BaseLogin {
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
 		
+		
+		
 		driver.findElement(By.xpath("//*[@class='login']")).click();
 		
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("sarowerny@gmail.com");
